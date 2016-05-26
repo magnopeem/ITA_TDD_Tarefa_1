@@ -1,24 +1,25 @@
 # ITA_TDD_Tarefa_1
-Tarefa: Quebra de Strings com CamelCase
+##Tarefa: Quebra de Strings com CamelCase
 
 
 
-Instruções
+###Instruções
 
 Criar utilizando TDD um método que transforma uma cadeia de caracteres em camel case (http://pt.wikipedia.org/wiki/CamelCase) em uma lista de Strings com as palavras. O método deve possuir a seguinte assinatura: "public static List<String> converterCamelCase(String original)"
 
 Abaixo seguem alguns exemplos de entrada e saída que você pode usar como base para os seus testes (crie adicionais ou diferentes se achar necessário):
 
-nome - “nome”
-Nome - “nome”
-nomeComposto - “nome”, “composto”
-NomeComposto - “nome”, “composto”
-CPF - “CPF”
-numeroCPF - “numero”, “CPF”
-numeroCPFContribuinte - “numero”, “CPF”, “contribuinte”
-recupera10Primeiros - “recupera”, “10”, “primeiros”
-10Primeiros - Inválido → não deve começar com números
-nome#Composto - Inválido → caracteres especiais não são permitidos, somente letras e números
+* nome - “nome”
+* Nome - “nome”
+* nomeComposto - “nome”, “composto”
+* NomeComposto - “nome”, “composto”
+* CPF - “CPF”
+* numeroCPF - “numero”, “CPF”
+* numeroCPFContribuinte - “numero”, “CPF”, “contribuinte”
+* recupera10Primeiros - “recupera”, “10”, “primeiros”
+* 10Primeiros - Inválido → não deve começar com números
+* nome#Composto - Inválido → caracteres especiais não são permitidos, somente letras e números
+
 É permitida a criação de métodos auxiliares. Para ficar mais divertido e praticar a refatoração, nenhum método pode possuir mais de dez linhas de código em seu corpo. Não vale “roubar” e incluir vários comandos em uma mesma linha de código!
 
 No método desenvolvido é permitida somente a utilização de classes da API básica da linguagem Java. Se você utilizar algum componente externo que facilite demais sua tarefa, estará tirando o propósito do exercício!
@@ -40,7 +41,7 @@ A provável origem do termo é a semelhança do contorno de expressões CamelCas
 
 Fonte: https://pt.wikipedia.org/wiki/CamelCase
 
-Refatoração
+###Refatoração
 
 É uma técnica para transformar um programa com problemas de projeto e codificação, como código duplicado e nomes inapropriados de métodos e classes, por exemplo, eliminando tais problemas. Neste curso, iremos mostrar uma maneira segura de fazer refatoração ou transformação do código sem que o comportamento anterior à refatoração seja mudado. O que garante que o código transformado não modificou o comportamento é testar o código antes e depois da refatoração e ele deve passar com sucesso em ambos os testes.
 
